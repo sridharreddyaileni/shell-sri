@@ -12,7 +12,7 @@ if [ $ID -ne 0 ]
 then
     echo "$R ERROR:: Please run this script with root access $N" &>> $LOGFILE
 else
-    echo "$G you are root user $N"
-    echo "$G My $Y Name is $R Sridhar $N "
-    echo "script executed at $TIMESTAMP"
+    echo "$G you are root user $N" &>> $LOGFILE
+    echo "$G My $Y Name is $R Sridhar $N " &>> $LOGFILE
+    echo "script executed at $TIMESTAMP" &>> $LOGFILE
 fi
