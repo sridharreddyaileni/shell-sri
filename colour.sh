@@ -16,3 +16,6 @@ else
     echo "$G My $Y Name is $R Sridhar $N" &>> $LOGFILE
     echo "script executed at $TIMESTAMP" &>> $LOGFILE
 fi
+
+Date=$(date)
+echo "$Y Todays Date is $Date $N"
