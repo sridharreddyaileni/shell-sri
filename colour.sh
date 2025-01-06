@@ -7,10 +7,11 @@ N="\e[0m"
 
 TIMESTAMP=$(date +F-%H-%M-%S)
 
-if [$ID -ne 0]
+if [ $ID -ne 0 ]
 then
+    echo "$R ERROR:: Please run this script with root access $N"
+else
+    echo "$G you are root user $N"
     echo "$G My $Y Name is $R Sridhar $N "
     echo "script executed at $TIMESTAMP"
-else
-    echo "you are root user"
 fi
