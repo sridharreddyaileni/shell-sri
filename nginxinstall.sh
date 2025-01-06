@@ -6,5 +6,6 @@ then
     exit 1
 else    
     echo "installing nginx"
+fi
 
 echo "END"
