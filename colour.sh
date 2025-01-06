@@ -22,6 +22,7 @@ if [ $ID -ne 0 ]
 then
     echo "$R ERROR:: Please run this script with root access $N" &>> $LOGFILE
     exit 1
+    VALIDATE $? "OK"
 else
     echo "$G you are root user $N" &>> $LOGFILE
     echo "$G My $Y Name is $R Sridhar $N" &>> $LOGFILE
