@@ -16,4 +16,4 @@ else
     echo "$G My $Y Name is $R Sridhar $N " &>> $LOGFILE
     echo "script executed at $TIMESTAMP" &>> $LOGFILE
 fi
-cp mongo.repo /etc/rpc/mongo.repo &>> $LOGFILE
+cp mongo.repo /etc/default/mongo.repo &>> $LOGFILE
