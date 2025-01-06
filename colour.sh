@@ -7,4 +7,4 @@ N="\e[0m"
 
 TIMESTAMP=$(date +F-%H-%M-%S)
 echo "$G My $Y Name is $R Sridhar $N "
-echo "script executed at $TIMESTAMP
+echo "script executed at $TIMESTAMP"
