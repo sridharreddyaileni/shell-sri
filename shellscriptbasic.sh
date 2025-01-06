@@ -30,5 +30,5 @@ else
 fi
 
 Date=$(date)
-echo "$Y Todays Date is $Date $N"
+echo "$Y Todays Date is $Date $N" &>> $LOGFILE
 VALIDATE $? "OK"
