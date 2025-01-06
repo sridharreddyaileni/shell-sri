@@ -1,5 +1,5 @@
 #!bin/bash
-set -e
+#set -e
 touch sri.txt
 date
 ksjidoh
