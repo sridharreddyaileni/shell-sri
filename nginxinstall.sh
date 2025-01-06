@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install nginx -y
+apt install nginxx -y
 if [ $? -ne 0 ]
 then
     echo "Error installing nginx"
