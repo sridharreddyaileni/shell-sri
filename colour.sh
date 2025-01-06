@@ -13,7 +13,6 @@ then
     echo "$R ERROR:: Please run this script with root access $N" &>> $LOGFILE
 else
     echo "$G you are root user $N" &>> $LOGFILE
-    echo "$G My $Y Name is $R Sridhar $N " &>> $LOGFILE
+    echo "$G My $Y Name is $R Sridhar $N" &>> $LOGFILE
     echo "script executed at $TIMESTAMP" &>> $LOGFILE
 fi
-cp mongo.repo /etc/default/mongo.repo &>> $LOGFILE
