@@ -31,4 +31,4 @@ fi
 
 Date=$(date)
 echo "$Y Todays Date is $Date $N"
-VALIDATE
+VALIDATE $? "OK"
