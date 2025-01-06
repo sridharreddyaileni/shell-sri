@@ -9,8 +9,8 @@ TIMESTAMP=$(date +F-%H-%M-%S)
 
 if [$ID -ne 0]
 then
-    echo "$G My $Y Name is $R Sridhar $N "
-    echo "script executed at $TIMESTAMP"
+    echo -e "$G My $Y Name is $R Sridhar $N "
+    echo -e "script executed at $TIMESTAMP"
 else
     echo "you are root user"
 fi
